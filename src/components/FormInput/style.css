@@ -1,0 +1,30 @@
+.inputTitle {
+    /* height: 30px; */
+    font-size: 30px;
+    font-family: OPPOSans;
+    font-weight: 400;
+    color: #c91616;
+}
+
+.inputRect {
+    width: 480px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+
+    font-size: 24px;
+    font-family: OPPOSans;
+    font-weight: 400;
+    color: #AEADAD;
+    line-height: 60px;
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: OPPOSans;
+    font-weight: 400;
+    color: #AEADAD;
+    line-height: 60px;
+}

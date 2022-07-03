@@ -1,0 +1,15 @@
+.main {
+    width: 1920px;
+    height: 80px;
+    background: #000000;
+}
+
+.text {
+    width: 1270px;
+    height: 24px;
+    font-size: 24px;
+    font-family: OPPOSans;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 60px;
+}

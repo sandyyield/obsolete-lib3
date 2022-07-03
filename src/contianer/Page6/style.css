@@ -1,0 +1,34 @@
+.title {
+    width: 290px;
+    height: 70px;
+    font-size: 72px;
+    font-family: OPPOSans;
+    font-weight: bold;
+    color: #000000;
+    line-height: 36px;
+    margin-left: 815px;
+    margin-top: 240px;
+}
+
+.form-title {
+    width: 297px;
+    height: 36px;
+    font-size: 36px;
+    font-family: OPPOSans;
+    font-weight: 400;
+    color: #000000;
+    line-height: 60px;
+    margin-left: 816px;
+    /* 240+70+94 */
+    margin-top: 58px;
+}
+
+.form-button {
+    width: 241px;
+    height: 80px;
+    background: #000000;
+    border-radius: 5px;
+    color: white;
+    margin-left: 840px;
+    margin-top: 40px;
+}
