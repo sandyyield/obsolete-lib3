@@ -5,14 +5,14 @@ import { FormInput } from "../../components/FormInput"
 import './style.css'
 
 const flexStyle: CSSProperties = {
-    width: '1920px',
+    width: '1912px',
     height: `${5000 - 80}px`,
     display: 'flex',
     flexDirection: 'column',
 }
 
 const bannerStyle: CSSProperties = {
-    width: '1918px',
+    width: '1800px',
     height: '800px',
     backgroundColor: 'red',
 }

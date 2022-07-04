@@ -1,1 +1,7 @@
-import 'antd/dist/antd.css'
+img {
+    width: 100%;
+}
+
+section {
+    width: 100%
+}

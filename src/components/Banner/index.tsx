@@ -6,9 +6,22 @@ import { Controller, Navigation, Pagination, Scrollbar, Mousewheel, Autoplay } f
 const Index = () => {
 
     const swiperProps = {
-        // loop: true,
-        autoplay:true
-
+        navigation: false,
+        pagination: {
+            dynamicBullets: true
+        },
+        modules: [
+            Navigation,
+            Pagination,
+            Autoplay
+        ],
+        spaceBetween: 50,
+        rewind: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true
+        }
     }
 
     return (
