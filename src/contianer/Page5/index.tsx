@@ -27,20 +27,27 @@ const Index = () => {
 
     return (
         <section>
-
             <div className='box'>
                 <div>
-                    <img src="/page5/banner.png" alt="" />
+                    <img src="/page5/page5_banner.jpg" alt="" />
                 </div>
                 <div>
-                    <div className='showBox'>
-                        <Swiper {...swiperProps}>
-                            <SwiperSlide>asdf</SwiperSlide>
-                            <SwiperSlide>sdf</SwiperSlide>
-                            <SwiperSlide>sdafds</SwiperSlide>
-                            <SwiperSlide>sdafds</SwiperSlide>
-                        </Swiper>
-                    </div>
+                    <img src="/page5/page5_p1.jpg" />
+                </div>
+                <div>
+                    <img src="/page5/page5_p2_swiper.jpg" />
+                </div>
+                <div>
+                    <img src="/page5/page5_p3.jpg" />
+                </div>
+                <div>
+                    <img src="/page5/page5_p4.jpg" />
+                </div>
+                <div>
+                    <img src="/page5/page5_p5.jpg" />
+                </div>
+                <div>
+                    <img src="/page5/page5_p6_swiper.jpg" />
                 </div>
             </div>
         </section>

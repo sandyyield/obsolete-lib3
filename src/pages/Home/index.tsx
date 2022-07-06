@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Banner } from '../../components/Banner';
 import TabPanel from '../../components/TabPanel';
 import { HomePage } from '../../contianer/HomePage';
+import { Page1 } from '../../contianer/Page1';
 import { Page5 } from '../../contianer/Page5';
 import { Page6 } from '../../contianer/Page6';
 
@@ -40,7 +41,7 @@ const Index = () => {
                     <HomePage />
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-                    Page Two
+                    <Page1 />
                 </TabPanel>
                 <TabPanel value={value} index={2}>
                     Page Three

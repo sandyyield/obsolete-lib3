@@ -11,11 +11,7 @@ const flexStyle: CSSProperties = {
     flexDirection: 'column',
 }
 
-const bannerStyle: CSSProperties = {
-    width: '1800px',
-    height: '800px',
-    backgroundColor: 'red',
-}
+
 
 const formStyle: CSSProperties = {
     backgroundColor: '#EAEAEA',
@@ -45,9 +41,10 @@ const Index = () => {
     }
 
     return (
-        <div style={flexStyle}>
-            <div style={bannerStyle}>
-                <img />
+        // <div style={flexStyle}>
+        <div className="box">
+            <div >
+                <img src="/page6/page6_banner.jpg" />
             </div>
             <div style={formStyle}>
                 <div className="title">
@@ -78,10 +75,13 @@ const Index = () => {
                             fontFamily: 'OPPOSans'
                         }} onClick={handleSubmit}>提交</Button >
                     </div>
-                    <div style={{ marginLeft: '816' }}>
-                        我们的客户 这里开始用图片就行
-                    </div>
                 </div>
+            </div>
+            <div>
+                <img src="/page6/page6_p1.jpg" />
+            </div>
+            <div>
+                <img src="/page6/page6_bottom.jpg" />
             </div>
 
         </div >
