@@ -4,6 +4,8 @@ import { Banner } from '../../components/Banner';
 import TabPanel from '../../components/TabPanel';
 import { HomePage } from '../../contianer/HomePage';
 import { Page1 } from '../../contianer/Page1';
+import { Page2 } from '../../contianer/Page2';
+import { Page3 } from '../../contianer/Page3';
 import { Page5 } from '../../contianer/Page5';
 import { Page6 } from '../../contianer/Page6';
 
@@ -44,7 +46,10 @@ const Index = () => {
                     <Page1 />
                 </TabPanel>
                 <TabPanel value={value} index={2}>
-                    Page Three
+                    <Page2 />
+                </TabPanel>
+                <TabPanel value={value} index={3}>
+                    <Page3 />
                 </TabPanel>
                 <TabPanel value={value} index={5}>
                     <Page5 />

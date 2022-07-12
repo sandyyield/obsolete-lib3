@@ -21,6 +21,8 @@ export default defineConfig({
         modifyVars: {
           '@primary-color': '#4377FE',//设置antd主题色
         },
+        charset: false,
+        additionalData: '@import "./src/assets/style/global.less";',
       },
     }
   }
