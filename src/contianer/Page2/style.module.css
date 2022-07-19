@@ -3,3 +3,116 @@
 img {
   width: 50%;
 } */
+
+a {
+  /* background-color: aqua;
+  opacity: 0.4; */
+}
+
+.a1 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 2%;
+  margin-top: 12.8%;
+}
+
+.a2 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 10%;
+  margin-top: 12.8%;
+}
+
+.a3 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 18%;
+  margin-top: 12.8%;
+}
+
+.a4 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 26%;
+  margin-top: 12.8%;
+}
+
+.a5 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 34%;
+  margin-top: 12.8%;
+}
+
+.a6 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 42%;
+  margin-top: 12.8%;
+}
+
+.a7 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 50%;
+  margin-top: 12.8%;
+}
+
+.a8 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 58%;
+  margin-top: 12.8%;
+}
+
+.a9 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 66%;
+  margin-top: 12.8%;
+}
+
+.a10 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 74%;
+  margin-top: 12.8%;
+}
+
+.a11 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 82%;
+  margin-top: 12.8%;
+}
+
+.a12 {
+  position: absolute;
+  width: 8%;
+  height: 15%;
+  left: 90%;
+  margin-top: 12.8%;
+}
+
+.abtm {
+  position: absolute;
+  width: 62.8%;
+  height: 8.4%;
+  left: 18.6%;
+  margin-top: 10.8%;
+}
+
+.abtm:hover {
+  cursor: pointer;
+}

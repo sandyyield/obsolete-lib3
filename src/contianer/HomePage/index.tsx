@@ -21,8 +21,8 @@ const imgs = [
   "/page0/page0_3.jpg",
   "/page0/page0_4.jpg",
   "/page0/page0_5.jpg",
-  "/page0/page0_6.jpg",
-  "/page0/page0_7.jpg",
+  "/page0/page0_6_01.jpg",
+  // "/page0/page0_7.jpg",
 ];
 
 const Index = () => {

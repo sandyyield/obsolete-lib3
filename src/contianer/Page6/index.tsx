@@ -118,7 +118,7 @@ const Index = () => {
         <img src="/page6/page6_p1.jpg" />
       </div>
       <div>
-        <img src="/page6/page6_bottom.jpg" />
+        <img src="/page6/page6_bottom_1.jpg" />
       </div>
     </div>
   );

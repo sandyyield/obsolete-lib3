@@ -1,0 +1,27 @@
+
+.box {
+    /* background-color: antiquewhite;
+    opacity: 0.2; */
+    width: 70%;
+    margin-left: 15%;
+}
+
+.line100 {
+    width: 100%;
+}
+.line1 {
+    width: 50%;
+}
+
+.line2 {
+    width: 100%;
+    
+}
+
+.line3 {
+    width: 25%;
+}
+
+.linemargintop{
+    margin-top: 100;
+}
