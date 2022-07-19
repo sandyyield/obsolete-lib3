@@ -1,14 +1,19 @@
-import { Nav } from './components/Nav'
-import { Home } from './pages/Home'
+import { Nav } from "./components/Nav";
+import { Home } from "./pages/Home";
 // import './App.css';
 
 function App() {
+  const compareTime = () => {
+    const endDateStr = "2022/07/31";
+    var curDate = new Date(),
+      endDate = new Date(endDateStr);
+    if (curDate <= endDate) {
+      return true;
+    }
+    return false;
+  };
 
-  return (
-    <div>
-      <Home />
-    </div>
-  )
+  return <div>{compareTime() ? <Home /> : <h1>您的网站预览已到期</h1>}</div>;
 }
 
-export default App
+export default App;
