@@ -47,11 +47,22 @@ const Index = () => {
     // "/page2/page1_4.jpg",
   ];
 
+  const scrollToAnchor = (anchorName: number) => {
+    if (anchorName) {
+      // 找到锚点
+      let anchorElement = document.getElementById(`${anchorName}`);
+      // 如果对应id的锚点存在，就跳转到锚点
+      if (anchorElement) {
+        anchorElement.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <div>
       {imgPaths.map((i, index) => (
         <>
-          <a name={index}></a>
+          <a id={`${index}`}></a>
           <img src={i} alt="" />
         </>
       ))}
