@@ -28,9 +28,9 @@ const Index = () => {
         <section>
             <Swiper {...swiperProps}
             >
-                <SwiperSlide><img src='/img/banner-1.png' /></SwiperSlide>
-                <SwiperSlide><img src='/img/banner-2.png' /></SwiperSlide>
-                <SwiperSlide><img src='/img/banner-3.png' /></SwiperSlide>
+                <SwiperSlide><img src='/img/banner-1.jpg' /></SwiperSlide>
+                <SwiperSlide><img src='/img/banner-2.jpg' /></SwiperSlide>
+                <SwiperSlide><img src='/img/banner-3.jpg' /></SwiperSlide>
 
             </Swiper>
         </section>

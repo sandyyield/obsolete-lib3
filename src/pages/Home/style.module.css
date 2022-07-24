@@ -1,47 +1,130 @@
+.headnav {
+    width: 100%;
+    background-color: black;
+}
+
+/* a{
+    background-color: aqua;
+    opacity: 0.4;
+    z-index: 100;
+} */
+
+.nav0{
+    height: 9%;
+    width: 21%;
+    position: absolute;
+}
+
+.nav1{
+    left: 21%;
+    height: 9%;
+    width: 11%;
+    position: absolute;
+}
+
+.nav2{
+    left: 32%;
+    height: 9%;
+    width: 11%;
+    position: absolute;
+}
+.nav3{
+    left: 43%;
+    height: 9%;
+    width: 11%;
+    position: absolute;
+}
+.nav4{
+    left: 54%;
+    height: 9%;
+    width: 11%;
+    position: absolute;
+}
+.nav5{
+    left: 65%;
+    height: 9%;
+    width: 11%;
+    position: absolute;
+}
+
+.nav6{
+    left: 76%;
+    height: 9%;
+    width: 11%;
+    position: absolute;
+}
+
+.nav7{
+    left: 89%;
+    height: 9%;
+    width: 4%;
+    position: absolute;
+}
+
+
+.logo {
+    width: 70%;
+    margin: 9%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.switchencn {
+    width: 13%;
+    margin: 9%;
+    margin-left: 38%;
+}
+
+.switchencn:hover {
+    cursor: pointer;
+}
+
 .h1 {
     position: absolute;
-    width: 8%;
+    width: 6%;
     height: 20%;
-    left: 18%;
+    left: 22%;
     margin-top: 5.8%;
 }
 
 .h2 {
     position: absolute;
-    width: 8%;
+    width: 7%;
     height: 50%;
-    left: 27%;
+    left: 30%;
     margin-top: 5.8%;
 }
 
 .h3 {
     position: absolute;
-    width: 8%;
+    width: 6%;
     height: 20%;
-    left: 36%;
+    left: 39%;
     margin-top: 5.8%;
 }
 
 .h4 {
     position: absolute;
-    width: 14%;
+    width: 13%;
     height: 14%;
-    left: 49%;
+    left: 48%;
     margin-top: 5.8%;
 }
 
 .h5 {
     position: absolute;
-    width: 7%;
+    width: 6%;
     height: 17%;
-    left: 66%;
+    left: 63.5%;
     margin-top: 5.8%;
 }
 
 .h6 {
     position: absolute;
-    width: 7%;
+    width: 6%;
     height: 14%;
-    left: 75%;
+    left: 72%;
     margin-top: 5.8%;
 }

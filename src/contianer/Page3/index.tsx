@@ -1,6 +1,6 @@
 const Index = () => {
   const imgs = [
-    "/page3/page3_1.png",
+    "/page3/page3_1_2.png",
     "/page3/page3_2.png",
     "/page3/page3_3.png",
     "/page3/page3_4.png",

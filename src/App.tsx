@@ -4,7 +4,7 @@ import { Home } from "./pages/Home";
 
 function App() {
   const compareTime = () => {
-    const endDateStr = "2022/07/31";
+    const endDateStr = "2022/08/15";
     var curDate = new Date(),
       endDate = new Date(endDateStr);
     if (curDate <= endDate) {

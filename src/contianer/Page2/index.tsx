@@ -10,7 +10,7 @@ const Index = ({ gotoPage }: any) => {
     "/page2/page1_6.jpg",
     "/page2/page1_7.jpg",
     "/page2/page1_8.jpg",
-    "/page2/page1_9.jpg",
+    "/page2/page1_9.png",
     "/page2/page1_10.jpg",
     "/page2/page1_11.jpg",
     "/page2/page1_12.jpg",
